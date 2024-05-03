@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
-client_id = "d49db720a99d4257b89fcc11beff3266"
-client_secret = "f06be26d02004537b4151aa7d435f1e4"
-user_id = "erccfq9chzntdqayamu7gpf29"
+client_id = ""
+client_secret = ""
+user_id = ""
 
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
